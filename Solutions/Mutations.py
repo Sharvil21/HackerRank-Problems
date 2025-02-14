@@ -1,0 +1,6 @@
+#Solution 1: Using Indexing and Slicing
+def mutate_string(string, position, character):
+    string = string[:position] + character + string[position+1:]
+    return string
+
+if __name__ == '__main__':
